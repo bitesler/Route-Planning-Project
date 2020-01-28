@@ -74,7 +74,6 @@ RouteModel::Node *RoutePlanner::NextNode() {
 std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(RouteModel::Node *current_node) {
     // Create path_found vector
     std::vector<RouteModel::Node> path_found;
-
     // TODO: Implement your solution here.
     distance = 0.0f;
   	RouteModel::Node parent_node;
